@@ -126,12 +126,12 @@ def q15
 
   # 以下に回答を記載
   puts data1.key?(:age) ?  "OK" : "NG"
-
-  if data2[:age]
-    puts "OK"
-  else
-    puts "NG"
-  end
+  puts data2.key?(:age) ?  "OK" : "NG"
+  # if data2[:age]
+  #   puts "OK"
+  # else
+  #   puts "NG"
+  # end
 
 end
 
