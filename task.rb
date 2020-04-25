@@ -202,8 +202,8 @@ end
 
 class Item
   # 以下を修正して下さい
-
-  def initialize(name)
+  attr_accessor :name
+  def initialize(name:)
     @name = name
   end
 end
